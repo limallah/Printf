@@ -15,7 +15,11 @@ char *get_precision(char *p, params_t *params, va_list ap)
 	if (*p != '.')
 		return (p);
 	p++;
+<<<<<<< HEAD
 	if (*p == '*')
+=======
+	if (p == '')
+>>>>>>> 65c32b7036ee5ca292bdf09935d7b1a03df42187
 	{
 		d = va_arg(ap, int);
 		p++;
@@ -27,4 +31,8 @@ char *get_precision(char *p, params_t *params, va_list ap)
 	}
 	params->precision = d;
 	return (p);
+<<<<<<< HEAD
 }
+=======
+}	
+>>>>>>> 65c32b7036ee5ca292bdf09935d7b1a03df42187

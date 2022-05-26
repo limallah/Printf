@@ -135,4 +135,8 @@ char *get_width(char *s, params_t *params, va_list ap)
 	}
 	params->width = d;
 	return (s);
+<<<<<<< HEAD
 }	
+=======
+}
+>>>>>>> 65c32b7036ee5ca292bdf09935d7b1a03df42187
